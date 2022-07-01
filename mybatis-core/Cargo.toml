@@ -33,7 +33,7 @@ rbson = { version = "2.0.4", features = ["uuid-0_8", "chrono-0_4"] }
 chrono = { version = "0.4", default-features = false, features = ["clock", "serde"] }
 log = { version = "0.4", default-features = false }
 lazy_static = "1.4"
-ipnetwork = { version = "0.19", features = ["serde"] }
+ipnetwork = { version = "0.20", features = ["serde"] }
 sqlx-core = { version = "0.5", features = ["offline","chrono", "time", "bigdecimal", "decimal","json", "uuid", "bit-vec"], optional = true }
 uuid = { version = "0.8", features = ["serde", "v4"] }
 time = { version = "0.2.16", features = ["serde"] }
